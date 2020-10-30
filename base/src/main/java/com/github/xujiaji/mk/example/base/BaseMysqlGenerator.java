@@ -8,6 +8,26 @@ import com.github.xujiaji.mk.common.MysqlGenerator;
  */
 public class BaseMysqlGenerator extends MysqlGenerator {
     @Override
+    protected String parentPackage() {
+        return "com.github.xujiaji.mk.example.base";
+    }
+
+    @Override
+    protected String dbName() {
+        return "mk";
+    }
+
+    @Override
+    protected String dbUsername() {
+        return "root";
+    }
+
+    @Override
+    protected String dbPassword() {
+        return "sKk2sxAwtfx";
+    }
+
+    @Override
     protected String tablePrefix() {
 //        return "sec_";
         return "";

@@ -18,6 +18,17 @@
 			<version>${project.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.github.xujiaji.mk</groupId>
+			<artifactId>mk-user-admin</artifactId>
+			<version>${mk.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.xujiaji.mk</groupId>
+			<artifactId>mk-security-admin</artifactId>
+			<version>${mk.version}</version>
+		</dependency>
 	</dependencies>
 
 </project>

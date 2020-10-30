@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+        <mk.version>0.0.4</mk.version>
 	</properties>
 
 	<modules>
