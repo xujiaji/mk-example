@@ -1,8 +1,8 @@
 spring:
   datasource:
     hikari:
-      username: root
-      password: sKk2sxAwtfx
+      username: mk
+      password: N3fsa4w72prMiSMD
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/mk?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&allowMultiQueries=true
   servlet:
@@ -28,20 +28,25 @@ logging:
   level:
     com.github.xujiaji.mk: debug
 
-custom:
+mk:
   security:
     config:
+      enable-api-version: true
+      enable-api-request-encrypt: true
       ignores:
         get:
+          - "/admin/sec/user/verifyCode"
           - "/admin/sec/role/*"
           - "/admin/sec/permission/*"
           - "/admin/sec/user/page"
+          - "/treesss"
         # 需要过滤的 post 请求
         post:
           - "/admin/sec/role/*"
           - "/admin/sec/permission/*"
           - "/admin/sec/user/add"
         put:
+          - "/admin/sec/user/login"
           - "/admin/sec/role/*"
           - "/admin/sec/role/set/permission"
           - "/admin/sec/permission/*"
