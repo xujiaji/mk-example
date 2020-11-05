@@ -31,6 +31,9 @@ logging:
     com.github.xujiaji.mk: debug
 
 mk:
+  jwt:
+    config:
+      redis-jwt-key-prefix: "mk:security:app:jwt:"
   security:
     config:
       enable-api-version: false
@@ -40,6 +43,14 @@ mk:
           - "/testss"
         # 需要过滤的 post 请求
         post:
-          - "/front/auth/user/thirdLogin"
+          - "/front/auth/user/sms/send"
+          - "/front/auth/user/register"
+          - "/front/auth/user/mobile/login"
+          - "/front/auth/user/verify/login"
+          - "/front/auth/user/forget/password"
+          - "/front/auth/user/third/login"
+          - "/front/auth/user/mini/wx/login"
+          - "/front/auth/user/mini/wx/info/login"
         put:
+      password-key: mk-security-password-key-example
 

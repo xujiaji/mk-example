@@ -29,6 +29,9 @@ logging:
     com.github.xujiaji.mk: debug
 
 mk:
+  jwt:
+    config:
+      redis-jwt-key-prefix: "mk:security:admin:jwt:"
   security:
     config:
       enable-api-version: true
