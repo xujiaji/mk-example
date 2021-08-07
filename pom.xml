@@ -17,7 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-        <mk.version>1.0.0-beta7</mk.version>
+        <com.github.xujiaji.mk.version>1.0.0-beta8</com.github.xujiaji.mk.version>
 	</properties>
 
 	<modules>
@@ -45,132 +45,132 @@
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>common</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>common-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>community</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>community-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>community-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>file</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>file-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>file-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>log</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>log-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>log-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>pay</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>pay-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>pay-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>security</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>security-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>security-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>sms</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>sms-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>sms-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>user</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>user-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>user-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>version</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>version-front</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.github.xujiaji.mk</groupId>
 				<artifactId>version-admin</artifactId>
-				<version>${mk.version}</version>
+				<version>${com.github.xujiaji.mk.version}</version>
 			</dependency>
 		</dependencies>
 
