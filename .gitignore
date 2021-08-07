@@ -33,3 +33,4 @@ build/
 .vscode/
 fabfile.py
 __pycache__
+.DS_Store
