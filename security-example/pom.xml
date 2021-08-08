@@ -8,12 +8,12 @@
 		<groupId>com.github.xujiaji.mk</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>common-example</artifactId>
+	<artifactId>security-example</artifactId>
 
 	<modules>
-		<module>common-base-example</module>
-		<module>common-app-example</module>
-		<module>common-admin-example</module>
+		<module>security-base-example</module>
+		<module>security-app-example</module>
+		<module>security-admin-example</module>
 	</modules>
 
 </project>

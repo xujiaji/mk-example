@@ -22,6 +22,7 @@
 
 	<modules>
 		<module>common-example</module>
+		<module>security-example</module>
 	</modules>
 
 	<dependencies>

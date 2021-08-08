@@ -2,18 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<packaging>pom</packaging>
+	<artifactId>security-base-example</artifactId>
+	<name>security-base-example</name>
+
 	<parent>
-		<artifactId>mk-example</artifactId>
+		<artifactId>security-example</artifactId>
 		<groupId>com.github.xujiaji.mk</groupId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>common-example</artifactId>
 
-	<modules>
-		<module>common-base-example</module>
-		<module>common-app-example</module>
-		<module>common-admin-example</module>
-	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>com.github.xujiaji.mk</groupId>
+			<artifactId>common</artifactId>
+		</dependency>
+
+	</dependencies>
 
 </project>
