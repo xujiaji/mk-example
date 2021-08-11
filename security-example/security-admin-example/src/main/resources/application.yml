@@ -1,3 +1,7 @@
+server:
+  port: 18011
+  servlet:
+    context-path: /
 spring:
   datasource:
     hikari:
@@ -39,7 +43,11 @@ mk:
       password-key: mk-security-password-key-example-admin
       api-request-encrypt-exclude:
         post:
+        delete:
+#          - "/admin/sec/role"
       ignores:
+        delete:
+#          - "/admin/sec/role"
         get:
           - "/admin/sec/user/verifyCode"
           - "/admin/sec/user/page"

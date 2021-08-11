@@ -23,6 +23,11 @@
 			<artifactId>common-admin</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.github.xujiaji.mk</groupId>
+			<artifactId>security-admin</artifactId>
+		</dependency>
+
 	</dependencies>
 
 </project>
