@@ -45,6 +45,8 @@ mk:
         post:
         delete:
 #          - "/admin/sec/role"
+        get:
+          - "/admin/sec/user/page"
       ignores:
         delete:
 #          - "/admin/sec/role"
